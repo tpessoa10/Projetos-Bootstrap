@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+</head>
+
+<body>
+    <div class="jumbotron ">
+        <h1 class="display-3 text-center">Formulário da F1</h1>
+        <p class="lead text-center">Conte nos o que sabe sobre a Fórmula 1</p>
+    </div>
+    <form>
+        <div class="container col-md-6">
+        <div class="form-group p-3 ">
+            <label for="Email">Endereço de Email</label>
+            <input type="email" name="Email" id="inputEmail" class="form-control" placeholder="Seu Email">
+            <small class="form-text text-muted">Não compartilharemos seu Email com ninguem.</small>
+        </div>
+        <div class="form-group p-3 ">
+            <label for="name">Seu nome</label>
+            <input type="text" class="form-control" placeholder="Seu nome">
+        </div>
+        <div class="form-group p-3 ">
+            <label for="like">De 0 a 5 o quanto voce gosta de Formula 1</label>
+            <input type="number" class="form-control form-control-sm" min="0" max="5">
+        </div>
+        <h6 class="p-3">Você é...</h6>
+        <div class="custom-control custom-radio ml-3">
+            <input type="radio" id="customRadio1" name="customRadio" class="custom-control-input p-3">
+            <label class="custom-control-label" for="customRadio1">Homem</label>
+        </div>
+        <div class="custom-control custom-radio ml-3">
+            <input type="radio" id="customRadio2" name="customRadio" class="custom-control-input p-3">
+            <label class="custom-control-label" for="customRadio2">Mulher</label>
+        </div>
+        <div class="custom-control custom-radio ml-3">
+            <input type="radio" id="customRadio3" name="customRadio" class="custom-control-input p-3">
+            <label class="custom-control-label" for="customRadio3">Outro</label>
+        </div>
+        <h6 class="p-3">Conte-nos qual seus pilotos preferidos</h6>
+        <div class="custom-control custom-checkbox ml-3">
+            <input type="checkbox" class="custom-control-input" name="" id="customCheck1">
+            <label for="customCheck1" class="custom-control-label">Hamilton</label>
+        </div>
+        <div class="custom-control custom-checkbox ml-3">
+            <input type="checkbox" class="custom-control-input" name="" id="customCheck2">
+            <label for="customCheck2" class="custom-control-label">Vettel</label>
+        </div>
+        <div class="custom-control custom-checkbox ml-3">
+            <input type="checkbox" class="custom-control-input" name="" id="customCheck3">
+            <label for="customCheck3" class="custom-control-label">Verstappen</label>
+        </div>
+        <div class="custom-control custom-checkbox ml-3">
+            <input type="checkbox" class="custom-control-input" name="" id="customCheck4">
+            <label for="customCheck4" class="custom-control-label">Gasly</label>
+        </div>
+        <div class="custom-control custom-checkbox ml-3">
+            <input type="checkbox" class="custom-control-input" name="" id="customCheck5">
+            <label for="customCheck5" class="custom-control-label">Outro</label>
+        </div>
+        <h6 class="p-3">Outras categorias que você acompanha</h6>
+        <div class="custom-control custom-checkbox ml-3">
+            <input class="custom-control-input" type="checkbox" id="check1">
+            <label for="check1" class="custom-control-label">Nascar</label>
+        </div>
+        <div class="custom-control custom-checkbox ml-3">
+            <input class="custom-control-input" type="checkbox" id="check2">
+            <label for="check2" class="custom-control-label">Indy</label>
+        </div>
+        <div class="custom-control custom-checkbox ml-3">
+            <input class="custom-control-input" type="checkbox" id="check3">
+            <label for="check3" class="custom-control-label">Formula E</label>
+        </div>
+        <div class="custom-control custom-checkbox ml-3">
+            <input class="custom-control-input" type="checkbox" id="check4">
+            <label for="check4" class="custom-control-label">Outras categorias</label>
+        </div>
+        <div class="custom-control custom-checkbox ml-3">
+            <input class="custom-control-input" type="checkbox" id="check5">
+            <label for="check5" class="custom-control-label">Nenhuma outra</label>
+        </div>
+        <div class="form-row mb-0 mt-3 ml-3 mb-3">
+            <div class="">
+                <button class="btn btn-primary" type="submit">Enviar</button>
+                <button class="btn btn-danger" type="reset">Cancelar</button>
+            </div>
+        </div>
+        </div>
+    </form>
+</body>
+</html>
